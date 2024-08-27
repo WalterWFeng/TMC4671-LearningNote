@@ -10,7 +10,7 @@
   |#|Motor|Picture|
 |---|---|----
 |1|BLDC|![image](img\BLDC.png)
-|2|PMSM|![]
+|2|PMSM|![image](img\PMSM.png)
 |3|Stepper Motor|
 |4|DC Motor|
 |5|Voice coils|
