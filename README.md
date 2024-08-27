@@ -13,6 +13,6 @@
 |Voice coils|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg" width="200" />
 ***
 ## Hardware Structure
-As we can see, we can control TMC4671 with SPI interface through STM32 or other MicroChip.We can write some specific value into a register of the chip to implementing specific functions.Such as we can Select Motor Type
+As we can see, we can control TMC4671 with SPI interface or USART through STM32 or other MicroChip.We can write some specific value into a register of the chip to implement specific functions. Such as we can Select Motor Type or something. When we have set up the chip, the chip will automatically output a signal to the motor driver which is composed of Gate Driver and MOSFEt.Then, the motor will turn. At last, sensors will collect motor data and trans back to TMC4671, such as current and rotor position.TMC4671 will process data and adjust the output signal automatically to control the motor. 
 <img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Hardware1.png" width="700" />  
 <img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Hardware2.png" width="700" />
