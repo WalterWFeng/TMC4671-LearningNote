@@ -13,3 +13,4 @@
 |Voice coils|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg" width="200" />
 ***
 ## Hardware Structure
+<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/BLDC.png" width="200" />
