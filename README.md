@@ -9,7 +9,7 @@
   It can drive all motors under this line.
   |#|Motor|Picture|
 |---|---|----
-|1|BLDC|![image](https://static4.arrow.com/-/media/arrow/images/820-x-410/0423-disassembled_bldc_motor-header-820x410.jpg)
+|1|BLDC|![image](img\BLDC.png)
 |2|PMSM|![]
 |3|Stepper Motor|
 |4|DC Motor|
