@@ -19,5 +19,24 @@ As we can see, we can control TMC4671 with SPI interface or USART through STM32 
 ## Communication Interfaces (SPI)
 I have used the SPI communication interface to communicate with TMC4671 successfully. And Here are my steps.  
 ### Step 1 - Set up a project through STM32 CubeIDE.
+It is easy to find a tutorial on the internet. like this https://www.youtube.com/watch?v=szMGedsp9jc.
 ### Step 2 - Instruct a SPI in STM32.
+|Mode|Full-Duplex Master
+|---|---
+|Configuration|
+|Data Size|8 Bit
+|Frist Bit|MSB Frist
+|Prescale|16
+|Baud Rate|1000.0 KBits/s
+|CPOL|High
+|CPHA|2 Edge
+Note:  
+  The SPI of the TMC4671 for the user application has an easy command and control structure. The TMC4671
+user SPI acts as a subnode. The SPI datagram length is 40 bit with a clock rate up to 8 MHz (1 MHz for the
+TMC4671-ES).  
+• The MSB (bit#39) is sent first. The LSB (bit#0) is sent last.
+• The MSB (bit#39) is the WRITE_notREAD (WRnRD) bit.
+• The bits (bit#39 to bit#32) are the address bits (ADDR).
+• Bits (bit#31) to (bit#0) are 32 data bits.  
+  The SPI of the TMC4671 immediately responds within the actual SPI datagram on read and write for ease of use communication and uses SPI mode 3 with CPOL = 1 and CPHA = 1. There is no support for daisy chain multiple ICs using MISO and MOSI. Datagrams longer or shorter than 40-bit should be avoided and might lead to unexpected behavior.
 ### Step 3 - Edite Code.
