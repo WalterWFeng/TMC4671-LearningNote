@@ -9,8 +9,8 @@
   It can drive all motors under this line.
   |#|Motor|Picture|
 |---|---|----
-|1|BLDC|![image](img\BLDC.png)
-|2|PMSM|![image](img\PMSM.png)
-|3|Stepper Motor|
-|4|DC Motor|
-|5|Voice coils|
+|1|BLDC|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/BLDC.png)
+|2|PMSM|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/PMSM.png)
+|3|Stepper Motor|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Stepper.jpg)
+|4|DC Motor|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/DC.png)
+|5|Voice coils|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg)
