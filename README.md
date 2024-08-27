@@ -13,5 +13,6 @@
 |Voice coils|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg" width="200" />
 ***
 ## Hardware Structure
+As we can see, we can control TMC4671 with SPI interface through STM32 or other MicroChip.We can write some specific value into a register of the chip to implementing specific functions.Such as we can Select Motor Type
 <img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Hardware1.png" width="700" />  
 <img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Hardware2.png" width="700" />
