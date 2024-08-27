@@ -8,8 +8,8 @@
   It can drive all motors under this line. In this project, I am going to learn how to drive PMSM with TMC4671.
   |#|Motor|Picture|
 |---|---|----
-|1|BLDC|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/BLDC.png)
-|2|PMSM|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/PMSM.png)
-|3|Stepper Motor|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Stepper.jpg)
-|4|DC Motor|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/DC.png)
-|5|Voice coils|![image](https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg)
+|1|BLDC|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/BLDC.png" width="400" />
+|2|PMSM|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/PMSM.png" width="400" />
+|3|Stepper Motor|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Stepper.jpg" width="400" />
+|4|DC Motor|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/DC.png" width="400" />
+|5|Voice coils|<img src="https://github.com/WalterWFeng/TMC4671-LearningNote/blob/main/img/Voice.jpg" width="400" />
